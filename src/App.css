@@ -1,0 +1,55 @@
+/* Player.css */
+
+/* Styles for the player card ************/
+.card {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(172, 30, 30, 0.7);
+  text-align: center;
+  background-image: url("R.jpeg");
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 60%;
+}
+
+/* Styles for the card body ************/
+.card-body {
+  padding: 70px;
+}
+
+/* Styles for the player name ***************/
+.card-title {
+  font-size: 90%;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.card-text {
+  font-size: 90%;
+  color: rgb(255, 255, 255);
+}
+
+/* Additional styles for specific details */
+.card-text span {
+  font-weight: bold;
+}
+
+/* Styles for line breaks */
+.card-text br {
+  display: none;
+}
+
+/* App.css */
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 90px;
+  background-image: url("OIP.jpeg");
+  background-size: cover;
+  background-position: center; /* Centre l'image dans le conteneur */
+  min-height: 100vh;
+}
